@@ -8,7 +8,7 @@ The parts list can be found in the `parts.xlsx` file.
 
 ## Hardware and Wiring
 
-<img src="https://raw.githubusercontent.com/sjtrny/poseidon/master/wiring.png" width="400px"/>
+<img src="https://raw.githubusercontent.com/sjtrny/poseidon/master/wiring.png" width="800px"/>
 
 ## Overview of Operation
 
