@@ -35,9 +35,13 @@ The state is reported back by publishing to `/on/state` and `/speed/state`.
 ## Install and Configure Raspbian
 
 1. Flash Raspian Lite image to SD card
+
 	https://www.raspberrypi.org/downloads/raspbian/
+	
 2. Enable SSH (create empy file at root of file system called `ssh`)
+
 `touch /Volumes/boot/ssh`
+
 3. Add wifi network configuration
 	- Create file
 	`touch /Volumes/boot/wpa_supplicant.conf`
@@ -102,7 +106,9 @@ sudo systemctl disable bluetooth.service
 ## Install Software
 
 1. Set timezone
+
 `sudo raspi-config`
+
 2. Download software
 ```
 curl -LO https://github.com/sjtrny/poseidon/archive/master.zip
