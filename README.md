@@ -2,7 +2,7 @@
 
 Poseidon is a custom built humidifier. This repository contains:
 - parts list
-- wiring diagrams
+- wiring diagram
 - required software and setup instructions
 
 ## Parts List
