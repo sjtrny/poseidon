@@ -1,6 +1,9 @@
 # poseidon
 
-This is a collection of software to control my custom built humidifier called `Poseidon`.
+Poseidon is a custom built humidifier. This repository contains:
+- parts list
+- wiring diagrams
+- required software and setup instructions
 
 ## Parts List
 
