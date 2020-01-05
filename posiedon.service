@@ -1,0 +1,16 @@
+[Unit]
+Description=Poseidon Control
+After=pigpiod.service
+
+[Service]
+User=pi
+StandardOutput=syslog
+StandardError=syslog
+WorkingDirectory=/home/pi/poseidon
+ExecStart=/home/pi/poseidon/venv/bin/python3 start.py
+ExecStop=/home/pi/poseidon/venv/bin/python3 stop.py
+Restart=always
+RemainAfterExit=true
+
+[Install]
+WantedBy=basic.target
