@@ -15,7 +15,7 @@ The parts list can be found in the `parts.xlsx` file.
 
 ## Overview of Operation
 
-There are two scripts:
+There are two Python scripts:
 
 - `start.py` which runs the humidifier control
 - `stop.py` which is called when the service is stopped
@@ -108,7 +108,7 @@ sudo systemctl disable bluetooth.service
 
 ## Install Software
 
-1. Set timezone
+1. Set hostname and timezone
 
 `sudo raspi-config`
 
@@ -117,7 +117,7 @@ sudo systemctl disable bluetooth.service
 curl -LO https://github.com/sjtrny/poseidon/archive/master.zip
 unzip -d poseidon master.zip
 ```
-5. Run setup
+3. Run setup
 This will automatically install dependencies, requirements etc and start the poseidon service
 ```
 cd poseidon
