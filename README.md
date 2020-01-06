@@ -108,7 +108,9 @@ sudo systemctl disable bluetooth.service
 
 ## Install Software
 
-1. Set hostname and timezone
+1. Configure your pi and set the following:
+- timezone
+- hostname
 
 `sudo raspi-config`
 
@@ -116,6 +118,7 @@ sudo systemctl disable bluetooth.service
 ```
 curl -LO https://github.com/sjtrny/poseidon/archive/master.zip
 unzip -d poseidon master.zip
+mv poseidon-master/ poseidon/
 ```
 3. Run setup
 This will automatically install dependencies, requirements etc and start the poseidon service
