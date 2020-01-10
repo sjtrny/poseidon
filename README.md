@@ -21,7 +21,7 @@ The parts list can be found in the `parts.xlsx` file.
 
 ## Hardware and Wiring
 
-<img src="https://raw.githubusercontent.com/sjtrny/poseidon/master/wiring.png" width="800px"/>
+<img src="https://github.com/sjtrny/poseidon/raw/master/wiring.png" width="800px"/>
 
 ## Instructions
 
