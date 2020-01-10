@@ -1,17 +1,6 @@
-# Update apt
-apt-get -y update
+#!/bin/bash
+venv_name=venv
 
-# Install pigpio
-apt-get -y install pigpio
-systemctl enable pigpiod
-systemctl start pigpiod
+virtualenv --always-copy -p python3 $venv_name
+$venv_name/bin/python3 -m pip install -r requirements.txt
 
-# Create virtual env and install requirements
-apt-get -y install python3-venv
-python3 -m venv venv
-venv/bin/activate/python3 -m pip install -r requirements.txt
-
-# Enable and run poseidon service
-cp poseidon.service /etc/systemd/system 
-systemctl enable poseidon
-systemctl start poseidon

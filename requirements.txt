@@ -1,2 +1,1 @@
-pigpio
-paho-mqtt
+esphome
