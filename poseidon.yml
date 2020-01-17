@@ -25,6 +25,7 @@ web_server:
 
 # Enable Home Assistant API
 api:
+  reboot_timeout: 2min
 
 ota:
 
@@ -54,10 +55,12 @@ switch:
     name: "Poseidon Fan"
     pin: 15
     id: poseidon_fan
+    restore_mode: ALWAYS_OFF
   - platform: gpio
     name: "Poseidon Fogger"
     pin: 4
     id: poseidon_fogger
+    restore_mode: ALWAYS_OFF
   - platform: template
     name: "Poseidon"
     lambda: |-
